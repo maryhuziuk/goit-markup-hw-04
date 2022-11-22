@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo">
+            <span class="logo-web">Web</span> Studio
+          </a>
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="current link">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфоліо</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts list">
+          <li class="item">
+            <a href="mailto:info@devstudio.co" class="email"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="number">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <ul class="button-items list">
+            <li class="item">
+              <button type="button" class="btn-portfolio btn-active">
+                Усі
+              </button>
+            </li>
+            <li class="item">
+              <button type="button" class="btn-portfolio">Веб-сайти</button>
+            </li>
+            <li class="item">
+              <button type="button" class="btn-portfolio">Додатки</button>
+            </li>
+            <li class="item">
+              <button type="button" class="btn-portfolio">Дизайн</button>
+            </li>
+            <li class="item">
+              <button type="button" class="btn-portfolio">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="list cards flex-container">
+            <li class="flex-element">
+              <img width="370" src="./images/img1.jpg" alt="фото 1" />
+              <div class="cards-border">
+                <h2 class="photo-tittle">Технокряк</h2>
+                <p class="photo-text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img width="370" src="./images/img2.jpg" alt="фото 2" />
+              <div class="cards-border">
+                <h2 class="photo-tittle">Постер New Orlean vs Golden Star</h2>
+                <p class="photo-text">Дизайн</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img width="370" src="./images/img3.jpg" alt="фото 3" />
+              <div class="cards-border">
+                <h2 class="photo-tittle">Ресторан Seafood</h2>
+                <p class="photo-text">Додаток</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img width="370" src="./images/img4.jpg" alt="фото 4" />
+              <div class="cards-border">
+                <h2 class="photo-tittle">Проєкт Prime</h2>
+                <p class="photo-text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img width="370" src="./images/img5.jpg" alt="фото 5" />
+              <div class="cards-border">
+                <h2 class="photo-tittle">Проєкт Boxes</h2>
+                <p class="photo-text">Додаток</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img width="370" src="./images/img6.jpg" alt="фото 6" />
+              <div class="cards-border">
+                <h2 class="photo-tittle">Inspiration has no Borders</h2>
+                <p class="photo-text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img width="370" src="./images/img7.jpg" alt="фото 7" />
+              <div class="cards-border">
+                <h2 class="photo-tittle">Видання Limited Edition</h2>
+                <p class="photo-text">Дизайн</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img width="370" src="./images/img8.jpg" alt="фото 8" />
+              <div class="cards-border">
+                <h2 class="photo-tittle">Проєкт LAB</h2>
+                <p class="photo-text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img width="370" src="./images/img9.jpg" alt="фото 9" />
+              <div class="cards-border">
+                <h2 class="photo-tittle">Growing Business</h2>
+                <p class="photo-text">Додаток</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="logo-footer"
+          ><span class="logo-web">Web</span> Studio</a
+        >`
+        <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
+        <ul class="list">
+          <li>
+            <a href="mailto:info@devstudio.co" class="ft-mail contact-footer"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="ft-contact contact-footer"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
