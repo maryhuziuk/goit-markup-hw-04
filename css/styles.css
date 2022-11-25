@@ -166,11 +166,7 @@ img{
 /* головна-герой */
 .hero {
   background-color: var(--main-background-color);
-  width: 1600px;
-
-}
-.overlay{
-  max-width: 1600px;
+   max-width: 1600px;
   height: 600px;
   background-image: linear-gradient(
     to right,
@@ -183,8 +179,14 @@ img{
   background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-position: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto ;
   
+
 }
+
 .hero-tittle {
   margin-bottom: 30px;
 
@@ -214,13 +216,15 @@ img{
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ 
   border-radius: 4px;
   
 }
 .btn-hero:hover,
 .btn-hero:focus {
-  color: var(--accent-color);
+  color: var(--background-maintittle-color);
+  background-color:#188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* вимоги */
 .section-nopadding{
@@ -257,6 +261,7 @@ img{
   align-items: center;
   justify-content: center;
   margin-bottom: 30px ;
+  border-radius: 4px;
   
 }
 .features-icons:not(:last-child){
